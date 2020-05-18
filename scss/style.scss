@@ -43,8 +43,8 @@
             margin-left: 17px;
         }
     }
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 .link__btn{
@@ -104,7 +104,7 @@
         margin: 50px 0px 60px;
     }
     &__title{
-        font-size: 36px;
+        font-size: 28px;
         font-family: 'Bebas Neue', cursive;
         color: #000;
         margin-bottom: 25px;
@@ -162,7 +162,96 @@
 
 // end services 
 
+// start about
+.about{
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content{
+        max-width: 635px;
+    }
+    &__title{
+        font-size: 28px;
+        font-family: 'Bebas Neue', cursive;
+        color: #000;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+    }
+    &__img-box{
+        display: flex;
+    }
+    &__img{
+        width: 300px;
+        height: 225px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        &+.about__img{
+            margin-left: 20px;
+        }        
+    }
+    &__info-title{
+        margin-top: 55px;
+        font-size: 20px;
+        font-weight: 700;
+        max-width: 600px;
+        margin-bottom: 40px;
+        color: #000;
+    }
+    &__info-text{
+        font-size: 18px;
+        max-width: 600px;
+        margin-bottom: 45px;
+    }
 
+}
+
+.about__aside{
+    max-width: 380px;
+    &-info{
+        font-size: 18px;
+    }
+    &-inner{
+        margin-top: 30px;
+        position: relative;
+    }
+    &-polosa{
+        height: 370px;
+        width: 3px;
+        background-color: #d7d7d7;
+        position: absolute;
+        z-index: -1;
+        top: 105px;
+        left: 55px;
+    }
+    &-item{
+        display: flex;
+        margin-bottom: 77px;
+    }
+    &-img{
+        height: 110px;
+        width: 110px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &-textbox{
+        align-items: center;
+        margin-left: 25px;
+        max-width: 245px;
+    }
+    &-title{
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #000;
+    }
+    &-text{
+        font-size: 18px;
+    }
+}
+//end about
 
 //  End
 
