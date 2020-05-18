@@ -21,12 +21,12 @@
                     <div class="header__top-box">
                         <div class="menu">
                             <ul>
-                                <li><a href="#">Услуги</a></li>
-                                <li><a href="#">Почему мы</a></li>
-                                <li><a href="#">Портфолио</a></li>
-                                <li><a href="#">Вопрос-ответ</a></li>
-                                <li><a href="#">Отзывы</a></li>
-                                <li><a href="#">Наши партнеры</a></li>
+                                <li><a class="scrollto" href="#services">Услуги</a></li>
+                                <li><a class="scrollto" href="#about">Почему мы</a></li>
+                                <li><a class="scrollto" href="#projects">Работы</a></li>
+                                <li><a class="scrollto" href="#review">Отзывы</a></li>
+                                <li><a class="scrollto" href="#partner">Наши партнеры</a></li>
+                                <li><a class="scrollto" href="#footer">Контакты</a></li>
                             </ul>
                         </div>
                         <a class="link__btn">обратный звонок</a>
@@ -37,7 +37,7 @@
 
         <div class="container-fluid">
             <div class="header__bg">
-                <div class="header__bg-img" style="background-image: url(images/bg.jpg);"></div>
+                <div class="header__bg-img" style="background-image: url(images/fon.jpg);"></div>
             </div>
             <div class="header__phone">
                 
@@ -52,7 +52,7 @@
         </div>
     </header>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="services__inner">
                 <div class="services__title">наши услуги</div>
@@ -92,7 +92,7 @@
         </div>
     </section>
     
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="about__inner">
                 <div class="about__content">
@@ -134,14 +134,176 @@
                                 <div class="bout__aside-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </div>
                             </div>
                         </div>
-
-
                     </div>
-                    
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="linkme">
+        <div class="linkme__inner" style="background-image: url(images/content/linkme.jpg);">
+            <div class="linkme__box">
+                <div class="linkme__box-bg"></div>
+                <div class="linkme__form">
+                    <div class="linkme__form-title">Свяжитесь с нами</div>
+                    <form>
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваш Телефон">
+                        <button type="submit">отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="projects__title">наши проекты</div>
+            <div class="projects__inner">
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p1.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p2.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p3.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p4.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p5.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p6.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p7.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+                <div class="projects__item">
+                    <div class="projects__item-img" style="background-image: url(images/content/projects/p8.jpg);"></div>
+                    <div class="projects__item-text">Lorem ipsum dolor sit</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review" >
+        <div class="container">
+            <div class="review__title">отзывы</div>
+            <div class="review__inner">
+                <div class="review__item">
+                    <div class="person">
+                        <div class="person-photo" style="background-image: url(images/content/review/person-1.png);"></div>
+                        <div class="person__info">
+                            <div class="person-organization">Lorem ipsum dolor sit amet,</div>
+                            <div class="person-name">Фамилия Имя Отчество</div>
+                            <div class="person-prof">Должность</div>
+                            <div class="rate-star"></div>
+                        </div>
+                    </div>
+                    <div class="review__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</div>
+                </div>
+
+                <div class="review__item">
+                    <div class="person">
+                        <div class="person-photo" style="background-image: url(images/content/review/person-2.jpg);"></div>
+                        <div class="person__info">
+                            <div class="person-organization">Lorem ipsum dolor sit amet,</div>
+                            <div class="person-name">Фамилия Имя Отчество</div>
+                            <div class="person-prof">Должность</div>
+                            <div class="rate-star"></div>
+                        </div>
+                    </div>
+                    <div class="review__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</div>
+                </div>
+
+                <div class="review__item">
+                    <div class="person">
+                        <div class="person-photo" style="background-image: url(images/content/review/person-1.png);"></div>
+                        <div class="person__info">
+                            <div class="person-organization">Lorem ipsum dolor sit amet,</div>
+                            <div class="person-name">Фамилия Имя Отчество</div>
+                            <div class="person-prof">Должность</div>
+                            <div class="rate-star"></div>
+                        </div>
+                    </div>
+                    <div class="review__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</div>
+                </div>
+
+                <div class="review__item">
+                    <div class="person">
+                        <div class="person-photo" style="background-image: url(images/content/review/person-2.jpg);"></div>
+                        <div class="person__info">
+                            <div class="person-organization">Lorem ipsum dolor sit amet,</div>
+                            <div class="person-name">Фамилия Имя Отчество</div>
+                            <div class="person-prof">Должность</div>
+                            <div class="rate-star"></div>
+                        </div>
+                    </div>
+                    <div class="review__item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner" id="partner">
+        <div class="container">
+            <div class="partner__title">Наши партнеры</div>
+            <div class="partner__inner">
+                <div class="partner__item img1" style="background-image: url(images/content/partner/p1.png);"></div>
+                <div class="partner__item img2" style="background-image: url(images/content/partner/p2.jpg);"></div>
+                <div class="partner__item img3" style="background-image: url(images/content/partner/p3.jpg);"></div>
+                <div class="partner__item img4" style="background-image: url(images/content/partner/p4.jpg);"></div>
+                <div class="partner__item img5" style="background-image: url(images/content/partner/p5.jpg);"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id ="footer">
+        <div class="container">
+            <div class="footer__title">Свяжитесь с нами</div>
+            <div class="footer__inner">
+                <div class="footer__contact">
+                    <div class="contact__phone">
+                        <div class="contact__phone-img" style="background-image: url(images/content/icon/phone.png);"></div>
+                        <a class="contact__phone-text" href="#">8 (044) 111 22 33</a>
+                    </div>
+                    <div class="contact__mail">
+                        <div class="contact__mail-img" style="background-image: url(images/content/icon/mail.png);"></div>
+                        <a class="contact__mail-text" href="#">electrici@gmail.com</a>
+                    </div>
+                    <div class="contact__adress">
+                        <div class="contact__adress-img" style="background-image: url(images/content/icon/adress.png);"></div>
+                        <div class="contact__adress-text">г.Киев, ул. Киевская 41</div>
+                    </div>
+                </div>
+                <div class="footer__form">
+                    <form>
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="text" placeholder="Ваш Телефон">
+                        <button type="submit">отправить</button>
+                    </form>             
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>

@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -46,5 +47,5 @@ li{
 .container-fluid{
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
+    //padding: 0 15px;
 }

@@ -169,7 +169,7 @@
         justify-content: space-between;
     }
     &__content{
-        max-width: 635px;
+        max-width: 700px;
     }
     &__title{
         font-size: 28px;
@@ -208,7 +208,7 @@
 }
 
 .about__aside{
-    max-width: 380px;
+    max-width: 450px;
     &-info{
         font-size: 18px;
     }
@@ -252,6 +252,320 @@
     }
 }
 //end about
+
+// start linkme
+.linkme__inner{
+    height: 510px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+
+}
+.linkme__box{
+    position: relative;
+    min-height: 510px;
+}
+.linkme__box-bg{
+    background-color: $blue;
+    opacity: .5;
+    max-width: 945px;
+    min-height: 510px;
+}
+
+.linkme__form{
+    position: absolute;
+    z-index: 2;
+    max-width: 540px;
+    &-title{
+        font-size: 28px;
+        color: #fff;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 55px;
+    }
+    left: 400px;
+    margin-bottom: 55px;
+    top: 0px;
+    padding: 90px 60px;
+    
+    form{
+        
+        input{
+            outline: none;
+            color: #fff;
+            width: 100%;
+            height: 53px;
+            border: 3px solid #fff;
+            margin-bottom: 30px;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 15px 40px;
+            background-color: transparent;
+            &::placeholder{
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+        button{
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: $yellow;
+            width: 100%;
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 20px 20px;
+            font-weight: 700;
+        }
+    }
+}
+// end linkme
+
+// start projects
+.projects{
+    margin-top: 80px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 35px;
+    }
+    &__title{
+        font-size: 28px;
+        font-family: 'Bebas Neue', cursive;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__item{
+        margin-bottom: 32px;
+        background-color: $blue;
+        height: 300px;
+        width: 255px;
+        box-shadow: 1px 1px 1px 2px rgba($color: $blue, $alpha: 0.3);
+        &-img{
+            width: 100%;
+            height: 240px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;                
+        }
+        &-text{
+            margin: 20px 0px;
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+    }
+    // end projects 
+}
+
+//start review
+.review{
+    background-color: #efefef;
+    padding: 70px 10px;
+    &__item{
+        max-width: 520px;
+        border-right: 1px solid $blue;
+        border-bottom: 1px solid $blue;
+    }
+    &__title{
+        font-size: 28px;
+        font-family: 'Bebas Neue', cursive;
+        color: #000;
+        text-transform: uppercase;
+    }
+    &__inner{
+        margin-top: 40px;
+    }
+    &-text{
+        width: 100%;
+    }
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;   
+    &-photo{
+        width: 220px;
+        height: 220px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;             
+        border-radius: 50%;           
+    }
+    &__info{
+        margin-left: 25px;
+        max-width: 250px;
+    }
+    &-organization{
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 30px;
+    }
+    
+    &-prof{
+        margin-bottom: 20px;
+    }
+}
+//end review
+
+//partner start
+.partner{
+    &__title{
+        font-size: 28px;
+        font-family: 'Bebas Neue', cursive;
+        color: #000;
+        text-transform: uppercase;
+        margin-top: 60px;
+    }
+
+    &__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 20px 60px;
+    }
+    
+    &__item{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;             
+    }
+}
+
+.img1{
+    width: 178px;
+    height: 85px;
+}
+
+.img2{
+    width: 130px;
+    height: 83px;
+}
+
+.img3{
+    width: 164px;
+    height: 52px;
+}
+
+.img4{
+    width: 185px;
+    height: 80px;
+}
+.img5{
+    width: 152px;
+    height: 129px;
+}
+
+.footer{
+    
+    padding: 55px 0px 70px;
+    background-color: #252525;
+    &__title{
+        text-align: center;
+        margin-bottom: 55px;
+        color: $yellow;
+        font-size: 28px;
+        font-family: 'Bebas Neue', cursive;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__contact{
+        max-width: 500px;
+    }
+    &__form{
+        form{
+            max-width: 420px;
+            input{
+                outline: none;
+                color: #fff;
+                width: 100%;
+                height: 53px;
+                border: 3px solid #fff;
+                margin-bottom: 30px;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 15px 40px;
+                background-color: transparent;
+                &::placeholder{
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+            }
+            button{
+                text-align: center;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                background-color: $yellow;
+                width: 100%;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 18px;
+                line-height: 18px;
+                padding: 20px 20px;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.contact__phone,
+.contact__mail,
+.contact__adress{
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.contact__phone-img,
+.contact__mail-img,
+.contact__adress-img{
+    position: absolute;
+    left: -40px;
+    top: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;             
+}
+
+.contact__phone-text,
+.contact__mail-text,
+.contact__adress-text{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%;
+    
+}
+
+.contact__phone-img{
+    height: 29px;
+    width: 29px;
+}
+
+.contact__mail-img{
+    height: 20px;
+    width: 28px;
+}
+
+.contact__adress-img{
+    height: 26px;
+    width: 22px;
+}
+//partner end
+
 
 //  End
 
