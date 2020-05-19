@@ -14,6 +14,30 @@ $(function(){
       slidesToScroll: 4,
       dots: true,
       arrows:false,
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToScroll: 3,
+            
+            slidesToShow: 3,
+          }
+        },
+        {
+          breakpoint: 820,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 460,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     });
 
     $(".review__inner").slick({
@@ -21,6 +45,15 @@ $(function(){
       slidesToScroll: 1,
       dots: true,
       arrows:false,
+      responsive: [
+        {
+          breakpoint: 720,
+          settings: {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+          }
+        }
+      ]
     });
 
 
@@ -29,6 +62,10 @@ $(function(){
         destination = jQuery(elementClick).offset().top-20;
         jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1100);
         return false;
+      });
+
+      $('.menu__btn').on('click',function(){
+        $('.menu').slideToggle();
       });
 
 });

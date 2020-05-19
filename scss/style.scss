@@ -47,6 +47,10 @@
     margin-left: 80px;
 }
 
+.menu__btn{
+    display: none;
+}
+
 .link__btn{
     font-weight: 700;
     background-color: $yellow;
@@ -94,6 +98,7 @@
         position: absolute;
         bottom: 20px;
         right: 30px;
+        
     }
 }
 
@@ -254,29 +259,31 @@
 //end about
 
 // start linkme
-.linkme__inner{
-    height: 510px;
+.linkme{
+    min-height: 510px;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;    
-
-}
-.linkme__box{
     position: relative;
-    min-height: 510px;
 }
-.linkme__box-bg{
+
+.linkme__leftbox{
     background-color: $blue;
     opacity: .5;
-    max-width: 945px;
+    max-width: 50%;
     min-height: 510px;
+    
 }
 
 .linkme__form{
     position: absolute;
-    z-index: 2;
-    max-width: 540px;
+    max-width: 30%;
+    left: 15%;
+    margin-bottom: 55px;
+    top: 0px;
+    padding: 90px 60px;
+
     &-title{
         font-size: 28px;
         color: #fff;
@@ -284,10 +291,6 @@
         text-align: center;
         margin-bottom: 55px;
     }
-    left: 400px;
-    margin-bottom: 55px;
-    top: 0px;
-    padding: 90px 60px;
     
     form{
         
@@ -309,15 +312,14 @@
         }
         button{
             text-align: center;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            padding: 20px 20px;
+            margin:10px 0px;
             background-color: $yellow;
             width: 100%;
             color: #fff;
             text-transform: uppercase;
             font-size: 18px;
             line-height: 18px;
-            padding: 20px 20px;
             font-weight: 700;
         }
     }
@@ -345,6 +347,7 @@
         background-color: $blue;
         height: 300px;
         width: 255px;
+        margin-left: 10px;    
         box-shadow: 1px 1px 1px 2px rgba($color: $blue, $alpha: 0.3);
         &-img{
             width: 100%;
@@ -373,6 +376,12 @@
         max-width: 520px;
         border-right: 1px solid $blue;
         border-bottom: 1px solid $blue;
+        margin-left: 20px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        &-text{
+            width: 95%;
+        }
     }
     &__title{
         font-size: 28px;
@@ -383,9 +392,7 @@
     &__inner{
         margin-top: 40px;
     }
-    &-text{
-        width: 100%;
-    }
+    
 }
 
 .person{
@@ -428,12 +435,15 @@
 
     &__inner{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 50px 20px 60px;
     }
     
     &__item{
+        margin-left: 20px;
+        margin-top: 30px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;             
@@ -566,6 +576,14 @@
 }
 //partner end
 
+
+.slick-list.draggable{
+    text-align: center;
+}
+.slick-dots{
+    text-align: center;
+    margin-top: 20px;
+}
 
 //  End
 

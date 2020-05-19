@@ -1,0 +1,694 @@
+@import 'vars';
+@import 'global';
+@import 'fonts';
+
+
+@media (max-width:1400px){
+
+    .linkme{
+        min-height: 510px;
+    }
+    
+    .linkme__leftbox{
+        min-height: 510px;
+    }
+    
+    .linkme__form{
+        max-width: 30%;
+        left: 10%;
+        margin-bottom: 55px;
+        padding: 90px 30px;
+    
+        &-title{
+            font-size: 28px;
+            margin-bottom: 55px;
+        }
+        
+        form{
+            input{
+                width: 100%;
+                height: 53px;
+                margin-bottom: 30px;
+                font-size: 18px;
+                padding: 15px 40px;
+            }
+            button{
+                padding: 20px 20px;
+                margin:10px 0px;
+                width: 100%;
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 1150px){
+    .about__inner{
+        display: block;
+    }
+    .about__content{
+        max-width: 1150px;
+    }
+
+    .about__img-box{
+        display: flex;
+        justify-content: center;
+    }
+
+    .about__info-title{
+        max-width: 1150px;
+    }
+    .about__info-text{
+        max-width: 1150px;
+    }
+    .about__title{
+        text-align: center;
+    }
+    .about__aside{
+        max-width: 1150px;
+        margin-top: 30px;
+    }
+    .about__aside-inner{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .about__aside-polosa{
+        display: none;
+    }
+    .services__title{
+        text-align: center;
+    }
+
+    .projects__title{
+        text-align: center;
+    }
+
+    .partner__title{
+        text-align: center;
+    }
+
+    // review start
+    .review{
+        padding: 70px 10px;
+        &__item{
+            max-width: 400px;
+            margin-left: 20px;
+            margin-right: 10px;
+        }
+        
+        &__inner{
+            margin-top: 30px;
+        }
+        
+    }
+    
+    .person{
+        margin-bottom: 30px;   
+        &-photo{
+            width: 150px;
+            height: 150px;
+        }
+        &__info{
+            margin-left: 25px;
+            max-width: 250px;
+        }
+        &-organization{
+            margin-bottom: 30px;
+        }
+        
+        &-prof{
+            margin-bottom: 20px;
+        }
+    }
+    // review end
+
+}
+
+@media (max-width: 1100px){
+    .projects__item{
+    flex-basis: calc(33.333%-10px);
+    }
+
+
+}
+
+@media (max-width: 1030px){
+    .menu {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+
+    ///*
+    .linkme{
+        min-height: 350px;
+    }
+    
+    .linkme__leftbox{
+        min-height: 350px;
+    }
+    
+    .linkme__form{
+        max-width: 30%;
+        left: 10%;
+        margin-bottom: 30px;
+        padding: 30px 5px;
+    
+        &-title{
+            font-size: 24px;
+            margin-bottom: 35px;
+        }
+        
+        form{
+            input{
+                width: 100%;
+                height: 43px;
+                margin-bottom: 20px;
+                font-size: 16px;
+                padding: 15px 30px;
+            }
+            button{
+                padding: 15px 10px;
+                margin:10px 0px;
+                width: 100%;
+                font-size: 16px;
+                line-height: 16px;
+            }
+        }
+    }
+
+    ///**
+    .partner__inner{
+        justify-content: space-around;
+    }    
+}
+@media (max-width: 950px){
+    .footer__inner{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .footer__contact{
+        margin-left: 50px;
+    }
+    .footer__form{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 930px){
+    .header__top-box{
+        .link__btn{
+            display: none;
+        }
+    }
+    .menu{
+        margin-right: 0px;
+    }
+
+    // review start
+    .review__title{
+        text-align: center;
+    }
+    .review{
+        
+        padding: 70px 10px;
+
+        &__item{
+            max-width: 300px;
+            margin-left: 5px;
+            margin-right: 5px;
+            &-text{
+                font-size: 14px;
+            }
+        }
+        
+        &__inner{
+            margin-top: 30px;
+            
+        }
+    }
+    
+    .person{
+        margin-bottom: 30px;   
+        &-photo{
+            width: 100px;
+            height: 100px;
+        }
+        &__info{
+            margin-left: 15px;
+            max-width: 160px;
+        }
+        &-organization{
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        &-name{
+            font-size: 14px;
+        }
+
+        &-prof{
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+    }
+    // review end
+}
+
+
+@media (max-width: 850px){
+    .projects__item{
+    flex-basis: 250px;
+    }
+}
+
+
+
+@media (max-width: 800px){
+    .header__phone-text{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:760px){
+
+///*
+.linkme{
+    min-height: 250px;
+}
+
+.linkme__leftbox{
+    min-height: 250px;
+}
+
+.linkme__form{
+    max-width: 30%;
+    left: 10%;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+
+    &-title{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    form{
+        input{
+            width: 100%;
+            height: 30px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            padding: 15px 10px;
+        }
+        button{
+            padding: 10px 10px;
+            margin:10px 0px;
+            width: 100%;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+}
+
+}
+
+
+@media (max-width: 720px){
+    .menu__btn{
+        display: block;
+        cursor: pointer;
+        div{
+            height: 5px;
+            width: 30px;
+            margin: 5px;
+            background-color: $text;
+            background-color: $yellow;
+        }
+        border: 1px solid $text;
+        margin-right: 0px;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        top: 57px;
+        left: -30px;
+        ul{
+            width: 100vw;
+            li{
+                display: block;
+                background-color: #fff;
+                border-bottom: 1px solid #000;
+                padding: 2px 0px;
+                a{
+                    color: $yellow;
+                    display: block;
+                }
+                &+li{
+                    margin-left: 0;
+                }
+                &:first-child{
+                    border-top: 1px solid #000;
+                }
+            }
+        }
+    }
+    .header__top-inner{
+        justify-content: space-between;
+    }
+    .header__phone{
+        display: none;
+    }
+
+    .header__bg-img{
+        min-height: 500px;
+    }
+    
+    .about__img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .about__content{
+        .link__btn{
+            padding: 10px 12px;
+            font-size: 16px;
+        }
+    }
+
+        // review start
+        
+        .review{
+            padding: 70px 10px;
+            &__item{
+                max-width: 500px;
+                margin-left: 5px;
+                margin-right: 5px;
+                &-text{
+                    font-size: 14px;
+                }
+            }
+            
+            &__inner{
+                margin-top: 30px;
+                
+            }
+        }
+        
+        .person{
+            margin-bottom: 30px;   
+            &-photo{
+                width: 150px;
+                height: 150px;
+            }
+            &__info{
+                margin-left: 25px;
+                max-width: 200px;
+            }
+            &-organization{
+                margin-bottom: 5px;
+                font-size: 16px;
+            }
+            &-name{
+                font-size: 16px;
+            }
+    
+            &-prof{
+                margin-bottom: 10px;
+                font-size: 14px;
+            }
+        }
+        // review end
+
+
+}
+
+
+
+@media (max-width: 600px){
+    .header__bg-img{
+        min-height: 400px;
+    }
+
+    .services{
+        &__inner{
+            margin: 20px 0px 20px;
+        }
+        
+        &__itembox{
+            margin-top: 40px;
+        }
+        &__item{
+            max-width: 200px;
+            min-height: 250px;
+            &-img{
+                height: 41px;
+            }
+            &-text{
+                font-size: 14px;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width:560px){
+
+///*
+.linkme{
+    min-height: 200px;
+}
+
+.linkme__leftbox{
+    min-height: 200px;
+    max-width: 100%;
+}
+
+.linkme__form{
+    max-width: 100%;
+    left: 10%;
+    margin-bottom: 0px;
+    padding: 5px 5px;
+
+    &-title{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    form{
+        input{
+            width: 100%;
+            height: 20px;
+            border: 1px solid #fff;
+            margin-bottom: 10px;
+            font-size: 12px;
+            padding: 15px 10px;
+        }
+        button{
+            padding: 10px 10px;
+            margin:10px 0px;
+            width: 100%;
+            font-size: 12px;
+            line-height: 12px;
+        }
+    }
+}
+
+    .projects__item{
+        flex-basis: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projects__title{
+        text-align: center;
+    }
+
+// review start
+        
+.review{
+    padding: 70px 10px;
+    &__item{
+        max-width: 300px;
+        margin-left: 5px;
+        margin-right: 5px;
+        &-text{
+            font-size: 12px;
+        }
+    }
+    
+    &__inner{
+        margin-top: 30px;
+        
+    }
+}
+
+.person{
+    margin-bottom: 30px;   
+    &-photo{
+        width: 100px;
+        height: 100px;
+    }
+    &__info{
+        margin-left: 15px;
+        max-width: 150px;
+    }
+    &-organization{
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    &-name{
+        font-size: 12px;
+    }
+
+    &-prof{
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+}
+// review end
+    .footer__contact{
+        margin-left: 10px;
+    }
+    .footer__form{
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .header__bg-img{
+        min-height: 300px;
+    }
+    .linkme__form{
+        left: 5%;
+    }
+}
+
+@media (max-width: 470px){
+    .footer{
+    
+        padding: 20px 0px 20px;
+        &__title{
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+
+        &__form{
+            form{
+                max-width: 420px;
+                input{
+                    height: 33px;
+                    border: 1px solid #fff;
+                    margin-bottom: 30px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 15px 20px;
+                }
+                button{
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    width: 100%;
+                    text-transform: uppercase;
+                    font-size: 14px;
+                    line-height: 14px;
+                    padding: 10px 10px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .contact__phone-text,
+    .contact__mail-text,
+    .contact__adress-text{
+        color: #fff;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .services{
+        &__item{
+            margin-left: 40px;    
+            max-width: 300px;
+            min-height: 270px;
+            &-img{
+                height: 41px;
+            }
+            &-text{
+                font-size: 14px;
+            }
+        }
+    }
+    .about__aside-img{
+        height: 80px;
+        width: 80px;
+    }
+    .about__aside-title{
+        font-size: 16px;
+    }
+    .bout__aside-text{
+        font-size: 12px;
+    }
+    .about__aside-textbox{
+        max-width: 200px;
+        margin-left: 10px;
+    }
+    .linkme__form{
+        left: 2%;
+    }
+
+    .projects__item{
+        flex-basis: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 400px){
+    .header__bg-img{
+        min-height: 200px;
+    }
+    
+    .services{
+        &__item{
+            margin-left: 10px;    
+            max-width: 250px;
+            min-height: 200px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/// 
+
+@media (min-width: 721px){
+    .menu{
+        display: block !important;
+    }
+
+}
+@media (min-width: 931px){
+    .header__top-box{
+        .link__btn{
+            display: block;
+        }
+    }
+}
+
+
+
+
+
